@@ -18,6 +18,11 @@ namespace math
     
     real& operator() (int row, int col);
 
+    real operator()(int row, int col) const;
+
     void print();
+    friend Matrix operator+(const Matrix& A, const Matrix& B);
+    friend Matrix operator-(const Matrix& A, const Matrix& B);
+    friend Matrix operator*(const Matrix& A, const Matrix& B);
     };
 }
