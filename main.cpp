@@ -27,8 +27,18 @@ std::cout << "Substract of matrices m and m1 is: " << std::endl;
 m3.print();
 std::cout << std::endl;
 
-std::cout<<std::endl<<"Multiplication of m andd m1: " << std::endl;
+std::cout<<std::endl<<"Multiplication of m and m1: " << std::endl;
 math::Matrix m4 = m * m1;
+m4.print();
+std::cout << std::endl;
+
+std::cout<<std::endl<<"+= of m4 and m1: " << std::endl;
+m4 += m;
+m4.print();
+std::cout << std::endl;
+
+std::cout<<std::endl<<"-= of m4 and m1: " << std::endl;
+m4 -= m;
 m4.print();
 std::cout << std::endl;
 

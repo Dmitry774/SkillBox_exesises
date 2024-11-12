@@ -116,3 +116,32 @@ Matrix math:: operator*(const Matrix &A, const Matrix &B)
 
     return M;
 }
+
+
+    // Определение перегрузки оператора +=
+    Matrix math::operator+=(Matrix &A, const Matrix &B) {
+        if ((A.rows_ != B.rows_) || (A.cols_ != B.cols_)) {
+            std::cerr << "Matrix: Matrices cannot be added!" << std::endl;
+            return A; // Возвращаем текущий объект без изменений
+        }
+
+        for (int i = 0; i < A.mvec_.size(); ++i) {
+            A.mvec_.at(i) += B.mvec_.at(i); // Сложение соответствующих элементов
+        }
+
+        return A; // Возвращаем текущий объект
+    }
+
+        // Определение перегрузки оператора -=
+    Matrix math::operator-=(Matrix &A, const Matrix &B) {
+        if ((A.rows_ != B.rows_) || (A.cols_ != B.cols_)) {
+            std::cerr << "Matrix: Matrices cannot be added!" << std::endl;
+            return A; // Возвращаем текущий объект без изменений
+        }
+
+        for (int i = 0; i < A.mvec_.size(); ++i) {
+            A.mvec_.at(i) -= B.mvec_.at(i); // Сложение соответствующих элементов
+        }
+
+        return A; // Возвращаем текущий объект
+    }
