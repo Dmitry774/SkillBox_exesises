@@ -1,6 +1,7 @@
 #pragma once
 #include <vector>
-
+#include <iostream>
+#include <cassert>
 namespace math 
 {
     typedef double real;
@@ -27,5 +28,16 @@ namespace math
     friend Matrix operator+=(Matrix &A, const Matrix &B);
     friend Matrix operator-=(Matrix &A, const Matrix &B);
     friend Matrix operator*=(Matrix &A, const int B);
+
+  
+    // геттеры для строк и столбцов
+    int rows() const { return rows_; }
+    int cols() const { return cols_; }
+
+    friend std::ostream& operator<<(std::ostream &stream, const Matrix &A);
+    //friend std::istream& operator>>(std::istream &is, Matrix &A);
+
+   // friend Matrix& operator<<(std::ostream &os, const Matrix &A);
     };
 }
+

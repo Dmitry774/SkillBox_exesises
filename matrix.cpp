@@ -42,7 +42,7 @@ real Matrix::operator() (int row, int col) const
     pos = cols_*row + col;
 
     return this->mvec_.at(pos);
-};
+}
 
 void Matrix::print()
 {
@@ -154,3 +154,23 @@ Matrix math:: operator*(const Matrix &A, const Matrix &B)
         }
         return A; // Возвращаем текущий объект
      }
+
+
+
+namespace math 
+{
+    // Перегрузка оператора вывода <<
+    std::ostream& operator<<(std::ostream &stream, const Matrix &A) {
+        for (int i = 0; i < A.rows_; ++i) {
+            for (int j = 0; j < A.cols_; ++j) {
+                stream << A.mvec_.at(A.cols_ * i + j) << " "; // Используем метод at для доступа к элементам
+            }
+            stream << std::endl; // Переход на новую строку после каждой строки матрицы
+        }
+        return stream;
+    }
+}
+
+     
+
+

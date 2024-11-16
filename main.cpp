@@ -48,6 +48,12 @@ m4 *= A;
 m4.print();
 std::cout << std::endl;
 
+std::cout<<std::endl<<"<< for m4" << std::endl;
+std::cout << m4; // Используем перегруженный оператор << для вывода
+
+std::cout<<std::endl<<"<< for m4" << std::endl;
+//std::cin >> m4; // Используем перегруженный оператор >> для ввода
+
 
 return 0;
 }
