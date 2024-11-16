@@ -35,7 +35,7 @@ namespace math
     int cols() const { return cols_; }
 
     friend std::ostream& operator<<(std::ostream &stream, const Matrix &A);
-    //friend std::istream& operator>>(std::istream &is, Matrix &A);
+    friend std::istream& operator>>(std::istream &is, Matrix &A);
 
    // friend Matrix& operator<<(std::ostream &os, const Matrix &A);
     };

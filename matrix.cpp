@@ -171,6 +171,20 @@ namespace math
     }
 }
 
+
+namespace math 
+{
+    // Перегрузка оператора вывода >>
+    std::istream& operator>>(std::istream &stream, Matrix &A) {
+        for (int i = 0; i < A.rows_; ++i) {
+            for (int j = 0; j < A.cols_; ++j) {
+                stream >> A.mvec_.at(A.cols_ * i + j); // Используем метод at для доступа к элементам
+            }
+        }
+        return stream;
+    }
+}
+
      
 
 
