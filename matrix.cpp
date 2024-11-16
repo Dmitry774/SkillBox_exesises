@@ -145,3 +145,12 @@ Matrix math:: operator*(const Matrix &A, const Matrix &B)
 
         return A; // Возвращаем текущий объект
     }
+
+
+// Определение перегрузки оператора *=
+     Matrix math::operator*=(Matrix &A, const int B){
+        for (int i = 0; i < A.mvec_.size(); ++i) {
+            A.mvec_.at(i) *= B; // Сложение соответствующих элементов
+        }
+        return A; // Возвращаем текущий объект
+     }

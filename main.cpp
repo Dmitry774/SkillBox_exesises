@@ -42,5 +42,12 @@ m4 -= m;
 m4.print();
 std::cout << std::endl;
 
+std::cout<<std::endl<<"*= of m4 and const int: " << std::endl;
+int A = 3;
+m4 *= A;
+m4.print();
+std::cout << std::endl;
+
+
 return 0;
 }

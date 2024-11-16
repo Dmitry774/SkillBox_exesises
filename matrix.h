@@ -26,5 +26,6 @@ namespace math
     friend Matrix operator*(const Matrix& A, const Matrix& B);
     friend Matrix operator+=(Matrix &A, const Matrix &B);
     friend Matrix operator-=(Matrix &A, const Matrix &B);
+    friend Matrix operator*=(Matrix &A, const int B);
     };
 }
