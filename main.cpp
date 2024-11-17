@@ -32,28 +32,31 @@ math::Matrix m4 = m * m1;
 m4.print();
 std::cout << std::endl;
 
-std::cout<<std::endl<<"+= of m4 and m1: " << std::endl;
+// Используем перегруженный оператор  +=
+std::cout<<std::endl<<"Operator += for matrices m4 and m1: " << std::endl;
 m4 += m;
 m4.print();
 std::cout << std::endl;
 
-std::cout<<std::endl<<"-= of m4 and m1: " << std::endl;
+// Используем перегруженный оператор  -=
+std::cout<<std::endl<<"Operator -= for matrices m4 and m1: " << std::endl;
 m4 -= m;
 m4.print();
 std::cout << std::endl;
 
-std::cout<<std::endl<<"*= of m4 and const int: " << std::endl;
+// Используем перегруженный оператор  *=
+std::cout<<std::endl<<"Operator *= for m4 and int A = 3: " << std::endl;
 int A = 3;
 m4 *= A;
 m4.print();
 std::cout << std::endl;
 
-std::cout<<std::endl<<"<< for m4" << std::endl;
+std::cout<<std::endl<<"Operator << for m4" << std::endl;
 std::cout << m4; // Используем перегруженный оператор << для вывода
 
-std::cout<<std::endl<<"<< for m4" << std::endl;
+std::cout<<std::endl<<"Operator << for m4" << std::endl;
 std::cin >> m4; // Используем перегруженный оператор >> для ввода
-std::cout<<std::endl<<"<<New m4" << std::endl;
+std::cout<<std::endl<<"Operator << for m4" << std::endl;
 std::cout << m4; // Используем перегруженный оператор << для вывода
 
 return 0;
