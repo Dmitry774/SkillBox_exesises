@@ -1,0 +1,38 @@
+[
+{
+  "directory": "C:/Users/1/Desktop/SkillBox_exesises/build",
+  "command": "C:\\mingw64\\bin\\g++.exe -DMATH_DOUBLE_PREC_DEFINE -DMATH_STATIC_DEFINE @CMakeFiles/static-matrixlib.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\static-matrixlib.dir\\matrix.cpp.obj -c C:\\Users\\1\\Desktop\\SkillBox_exesises\\matrix.cpp",
+  "file": "C:/Users/1/Desktop/SkillBox_exesises/matrix.cpp",
+  "output": "CMakeFiles/static-matrixlib.dir/matrix.cpp.obj"
+},
+{
+  "directory": "C:/Users/1/Desktop/SkillBox_exesises/build",
+  "command": "C:\\mingw64\\bin\\g++.exe -DMATH_DOUBLE_PREC_DEFINE -DMATH_STATIC_DEFINE @CMakeFiles/static-matrixlib.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\static-matrixlib.dir\\c_api.cpp.obj -c C:\\Users\\1\\Desktop\\SkillBox_exesises\\c_api.cpp",
+  "file": "C:/Users/1/Desktop/SkillBox_exesises/c_api.cpp",
+  "output": "CMakeFiles/static-matrixlib.dir/c_api.cpp.obj"
+},
+{
+  "directory": "C:/Users/1/Desktop/SkillBox_exesises/build",
+  "command": "C:\\mingw64\\bin\\g++.exe -DMATH_DOUBLE_PREC_DEFINE -Dshared_matrixlib_EXPORTS @CMakeFiles/shared-matrixlib.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\shared-matrixlib.dir\\matrix.cpp.obj -c C:\\Users\\1\\Desktop\\SkillBox_exesises\\matrix.cpp",
+  "file": "C:/Users/1/Desktop/SkillBox_exesises/matrix.cpp",
+  "output": "CMakeFiles/shared-matrixlib.dir/matrix.cpp.obj"
+},
+{
+  "directory": "C:/Users/1/Desktop/SkillBox_exesises/build",
+  "command": "C:\\mingw64\\bin\\g++.exe -DMATH_DOUBLE_PREC_DEFINE -Dshared_matrixlib_EXPORTS @CMakeFiles/shared-matrixlib.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\shared-matrixlib.dir\\c_api.cpp.obj -c C:\\Users\\1\\Desktop\\SkillBox_exesises\\c_api.cpp",
+  "file": "C:/Users/1/Desktop/SkillBox_exesises/c_api.cpp",
+  "output": "CMakeFiles/shared-matrixlib.dir/c_api.cpp.obj"
+},
+{
+  "directory": "C:/Users/1/Desktop/SkillBox_exesises/build",
+  "command": "C:\\mingw64\\bin\\g++.exe -DMATH_DOUBLE_PREC_DEFINE -DMATH_STATIC_DEFINE @CMakeFiles/test-static-matrix.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\test-static-matrix.dir\\test-static-matrix.cpp.obj -c C:\\Users\\1\\Desktop\\SkillBox_exesises\\test-static-matrix.cpp",
+  "file": "C:/Users/1/Desktop/SkillBox_exesises/test-static-matrix.cpp",
+  "output": "CMakeFiles/test-static-matrix.dir/test-static-matrix.cpp.obj"
+},
+{
+  "directory": "C:/Users/1/Desktop/SkillBox_exesises/build",
+  "command": "C:\\mingw64\\bin\\g++.exe -DMATH_DOUBLE_PREC_DEFINE @CMakeFiles/test-shared-matrix.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\test-shared-matrix.dir\\test-shared-matrix.cpp.obj -c C:\\Users\\1\\Desktop\\SkillBox_exesises\\test-shared-matrix.cpp",
+  "file": "C:/Users/1/Desktop/SkillBox_exesises/test-shared-matrix.cpp",
+  "output": "CMakeFiles/test-shared-matrix.dir/test-shared-matrix.cpp.obj"
+}
+]

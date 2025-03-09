@@ -19,7 +19,7 @@ namespace math
         real& operator() (int row, int col);
         real operator()(int row, int col) const;
 
-        void print();
+        void print() const;
         friend Matrix operator+(const Matrix& A, const Matrix& B);
         friend Matrix operator-(const Matrix& A, const Matrix& B);
         friend Matrix operator*(const Matrix& A, const Matrix& B);

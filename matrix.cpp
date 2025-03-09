@@ -1,5 +1,6 @@
 #include <matrix.h>
 #include <iostream>
+#include <cmath>
 using namespace math;
 
 real &Matrix::operator()(int row, int col) {
@@ -38,7 +39,7 @@ real Matrix::operator()(int row, int col) const {
   return this->mvec_.at(pos);
 }
 
-void Matrix::print() {
+void Matrix::print() const {
   for (int i = 0; i < this->rows_; ++i) {
     for (int j = 0; j < this->cols_; ++j) {
       std::cout << this->mvec_.at(cols_ * i + j) << " ";
@@ -47,7 +48,9 @@ void Matrix::print() {
   }
 }
 
-Matrix math::operator+(const Matrix &A, const Matrix &B) {
+namespace math
+{
+Matrix operator+(const Matrix &A, const Matrix &B) {
   if ((A.cols_ != B.cols_) || (A.rows_ != B.rows_)) {
     std::cerr << "Matrix: Matries can not be added!" << std::endl;
     return Matrix(0, 0);
@@ -62,7 +65,7 @@ Matrix math::operator+(const Matrix &A, const Matrix &B) {
   return M;
 }
 
-Matrix math::operator-(const Matrix &A, const Matrix &B) {
+Matrix operator-(const Matrix &A, const Matrix &B) {
   if ((A.cols_ != B.cols_) || (A.rows_ != B.rows_)) {
     std::cerr << "Matrix: Matries can not be substract!" << std::endl;
     return Matrix(0, 0);
@@ -77,7 +80,7 @@ Matrix math::operator-(const Matrix &A, const Matrix &B) {
   return M;
 }
 
-Matrix math::operator*(const Matrix &A, const Matrix &B) {
+Matrix operator*(const Matrix &A, const Matrix &B) {
   if (A.cols_ != B.rows_) {
     std::cerr << "Matrix: Matries can not be multiplyed!" << std::endl;
     return Matrix(0, 0);
@@ -97,7 +100,7 @@ Matrix math::operator*(const Matrix &A, const Matrix &B) {
 }
 
 // Определение перегрузки оператора +=
-Matrix math::operator+=(Matrix &A, const Matrix &B) {
+Matrix operator+=(Matrix &A, const Matrix &B) {
   if ((A.rows_ != B.rows_) || (A.cols_ != B.cols_)) {
     std::cerr << "Matrix: Matrices cannot be added!" << std::endl;
     return A;  // Возвращаем текущий объект без изменений
@@ -111,7 +114,7 @@ Matrix math::operator+=(Matrix &A, const Matrix &B) {
 }
 
 // Определение перегрузки оператора -=
-Matrix math::operator-=(Matrix &A, const Matrix &B) {
+Matrix operator-=(Matrix &A, const Matrix &B) {
   if ((A.rows_ != B.rows_) || (A.cols_ != B.cols_)) {
     std::cerr << "Matrix: Matrices cannot be added!" << std::endl;
     return A;  // Возвращаем текущий объект без изменений
@@ -125,11 +128,12 @@ Matrix math::operator-=(Matrix &A, const Matrix &B) {
 }
 
 // Определение перегрузки оператора *=
-Matrix math::operator*=(Matrix &A, const int B) {
+Matrix operator*=(Matrix &A, const int B) {
   for (int i = 0; i < A.mvec_.size(); ++i) {
     A.mvec_.at(i) *= B;  // Сложение соответствующих элементов
   }
   return A;  // Возвращаем текущий объект
+}
 }
 
 namespace math {

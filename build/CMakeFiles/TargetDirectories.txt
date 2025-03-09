@@ -1,0 +1,6 @@
+C:/Users/1/Desktop/SkillBox_exesises/build/CMakeFiles/static-matrixlib.dir
+C:/Users/1/Desktop/SkillBox_exesises/build/CMakeFiles/shared-matrixlib.dir
+C:/Users/1/Desktop/SkillBox_exesises/build/CMakeFiles/test-static-matrix.dir
+C:/Users/1/Desktop/SkillBox_exesises/build/CMakeFiles/test-shared-matrix.dir
+C:/Users/1/Desktop/SkillBox_exesises/build/CMakeFiles/edit_cache.dir
+C:/Users/1/Desktop/SkillBox_exesises/build/CMakeFiles/rebuild_cache.dir
