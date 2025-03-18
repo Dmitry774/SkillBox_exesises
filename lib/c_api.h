@@ -17,21 +17,13 @@ extern "C"
 
 typedef struct Matrix Matrix;
 Matrix* MATRIXLIB_EXPORT math_createMatrix (int rows, int cols);
-
 void MATRIXLIB_EXPORT math_deleteMatrix(Matrix* M);
-
 real MATRIXLIB_EXPORT math_get(const Matrix *M, int row, int col);
 void MATRIXLIB_EXPORT math_set(Matrix *M, int row, int col, real value);
-
 Matrix* MATRIXLIB_EXPORT math_add(const Matrix*A, const Matrix* B);
-
 Matrix* MATRIXLIB_EXPORT math_subtract(const Matrix*A, const Matrix* B);
-
 Matrix* MATRIXLIB_EXPORT math_dot(const Matrix*A, const Matrix* B);
-
 void MATRIXLIB_EXPORT math_print(const Matrix* M);
-
-
 void MATRIXLIB_EXPORT math_addAssign(Matrix* A, const Matrix* B);
 void MATRIXLIB_EXPORT math_subtractAssign(Matrix* A, const Matrix* B);
 void MATRIXLIB_EXPORT math_multiplyAssignScalar(Matrix* A, int scalar);

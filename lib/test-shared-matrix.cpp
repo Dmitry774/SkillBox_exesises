@@ -17,15 +17,15 @@ void MATRIXLIB_EXPORT math_multiplyAssignScalar(Matrix* A, int scalar);
 void MATRIXLIB_EXPORT math_printMatrix(const Matrix* M);
 void MATRIXLIB_EXPORT math_readMatrix(Matrix* M);
 
-
 #ifdef _cplusplus
 }
 #endif
 
-
 int main()
 
 {
+ // Проверяем работу экспортируемых в библиотеку функций. Аналогичная проверка библиотечных функций в независимом проекте CMake.
+
     Matrix* m = math_createMatrix(3,3);
     math_set(m, 0,0,1.);
     math_set(m, 1,1,1.);
@@ -39,7 +39,6 @@ int main()
     std::cout<<"Matrix m1 is"<<std::endl;
     math_print(m1);
 
-
     std::cout<<"addAssign m1 and m2 is"<<std::endl;
     math_addAssign(m1,m);
     math_printMatrix(m1);
@@ -52,7 +51,7 @@ int main()
     math_subtractAssign(m1, m);
     math_printMatrix(m1);
 
-    std::cout<<"Read mattrix m1. Enter numbers:"<<std::endl;
+    std::cout<<"Read matrix m1. Enter numbers:"<<std::endl;
     math_readMatrix(m1);
     math_printMatrix(m1);
 

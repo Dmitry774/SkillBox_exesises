@@ -28,7 +28,7 @@ add_library(shared-matrixlib SHARED ${sources})
 
 
 
-# Указываем директории, где находятся заголовочные файлы для библиотеки shared-matrixlib
+# Указываем директории где находятся заголовочные файлы для библиотеки shared-matrixlib
 target_include_directories(shared-matrixlib
 PUBLIC
 "<BUILD_INTERFACE:${CMAKE_SOURCE_DIR}/lib>"
@@ -36,7 +36,7 @@ PUBLIC
 "$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_BINARY_DIR}>"
 )
 
-# Добавляем определение препроцессора MATH_DOUBLE_PREC_DEFINE, если опция MATH_USE_DOUBLE_PRECISION включена
+# Добавляем определение препроцессора MATH_DOUBLE_PREC_DEFINE
 target_compile_definitions(
     shared-matrixlib
     PUBLIC

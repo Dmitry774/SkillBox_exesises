@@ -11,7 +11,7 @@
         #define MATRIXLIB_API __declspec(dllimport)  // Импорт при использовании библиотеки
     #endif
 #else
-    #define MATRIXLIB_API  // На Linux/macOS макрос пустой
+    #define MATRIXLIB_API
 #endif
 
 namespace math {

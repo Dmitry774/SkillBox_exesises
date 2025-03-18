@@ -45,19 +45,19 @@ int main()
     math_print(m1);
 
 
-    std::cout<<"addAssign m1 and m2 is"<<std::endl;
+    std::cout<<"AddAssign m1 and m2 is"<<std::endl; // Оператор +=
     math_addAssign(m1,m);
     math_printMatrix(m1);
 
-    std::cout<<"multiplyAssignScalar m1 and int 5 is"<<std::endl;
+    std::cout<<"MultiplyAssignScalar m1 and int 5 is"<<std::endl; // умножение матрицы на число
     math_multiplyAssignScalar(m1, 5);
     math_printMatrix(m1);
 
-    std::cout<<"subtractAssign m1 and m is"<<std::endl;
+    std::cout<<"SubtractAssign m1 and m is"<<std::endl; // Оператор -=
     math_subtractAssign(m1, m);
     math_printMatrix(m1);
 
-    std::cout<<"Read matrix m1. Enter numbers:"<<std::endl;
+    std::cout<<"Read matrix m1. Enter numbers:"<<std::endl; // Ввод матрицы. Оператор >>
     math_readMatrix(m1);
     math_printMatrix(m1);
 

@@ -44,8 +44,6 @@ void MATRIXLIB_EXPORT math_print(const Matrix* M)
     M->print();
 }
 
-
-
 void MATRIXLIB_EXPORT math_addAssign(Matrix* A, const Matrix* B) {
     *A += *B;
 }
