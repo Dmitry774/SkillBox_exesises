@@ -59,15 +59,12 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "export_static.h"
   "export_shared.h"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/static-matrixlib.dir/DependInfo.cmake"
   "CMakeFiles/shared-matrixlib.dir/DependInfo.cmake"
-  "CMakeFiles/test-static-matrix.dir/DependInfo.cmake"
   "CMakeFiles/test-shared-matrix.dir/DependInfo.cmake"
   )

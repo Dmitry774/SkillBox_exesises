@@ -71,55 +71,57 @@ include CMakeFiles/shared-matrixlib.dir/flags.make
 CMakeFiles/shared-matrixlib.dir/codegen:
 .PHONY : CMakeFiles/shared-matrixlib.dir/codegen
 
-CMakeFiles/shared-matrixlib.dir/matrix.cpp.obj: CMakeFiles/shared-matrixlib.dir/flags.make
-CMakeFiles/shared-matrixlib.dir/matrix.cpp.obj: CMakeFiles/shared-matrixlib.dir/includes_CXX.rsp
-CMakeFiles/shared-matrixlib.dir/matrix.cpp.obj: C:/Users/1/Desktop/SkillBox_exesises/matrix.cpp
-CMakeFiles/shared-matrixlib.dir/matrix.cpp.obj: CMakeFiles/shared-matrixlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\1\Desktop\SkillBox_exesises\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/shared-matrixlib.dir/matrix.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/shared-matrixlib.dir/matrix.cpp.obj -MF CMakeFiles\shared-matrixlib.dir\matrix.cpp.obj.d -o CMakeFiles\shared-matrixlib.dir\matrix.cpp.obj -c C:\Users\1\Desktop\SkillBox_exesises\matrix.cpp
+CMakeFiles/shared-matrixlib.dir/lib/matrix.cpp.obj: CMakeFiles/shared-matrixlib.dir/flags.make
+CMakeFiles/shared-matrixlib.dir/lib/matrix.cpp.obj: CMakeFiles/shared-matrixlib.dir/includes_CXX.rsp
+CMakeFiles/shared-matrixlib.dir/lib/matrix.cpp.obj: C:/Users/1/Desktop/SkillBox_exesises/lib/matrix.cpp
+CMakeFiles/shared-matrixlib.dir/lib/matrix.cpp.obj: CMakeFiles/shared-matrixlib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\1\Desktop\SkillBox_exesises\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/shared-matrixlib.dir/lib/matrix.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/shared-matrixlib.dir/lib/matrix.cpp.obj -MF CMakeFiles\shared-matrixlib.dir\lib\matrix.cpp.obj.d -o CMakeFiles\shared-matrixlib.dir\lib\matrix.cpp.obj -c C:\Users\1\Desktop\SkillBox_exesises\lib\matrix.cpp
 
-CMakeFiles/shared-matrixlib.dir/matrix.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/shared-matrixlib.dir/matrix.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\1\Desktop\SkillBox_exesises\matrix.cpp > CMakeFiles\shared-matrixlib.dir\matrix.cpp.i
+CMakeFiles/shared-matrixlib.dir/lib/matrix.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/shared-matrixlib.dir/lib/matrix.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\1\Desktop\SkillBox_exesises\lib\matrix.cpp > CMakeFiles\shared-matrixlib.dir\lib\matrix.cpp.i
 
-CMakeFiles/shared-matrixlib.dir/matrix.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/shared-matrixlib.dir/matrix.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\1\Desktop\SkillBox_exesises\matrix.cpp -o CMakeFiles\shared-matrixlib.dir\matrix.cpp.s
+CMakeFiles/shared-matrixlib.dir/lib/matrix.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/shared-matrixlib.dir/lib/matrix.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\1\Desktop\SkillBox_exesises\lib\matrix.cpp -o CMakeFiles\shared-matrixlib.dir\lib\matrix.cpp.s
 
-CMakeFiles/shared-matrixlib.dir/c_api.cpp.obj: CMakeFiles/shared-matrixlib.dir/flags.make
-CMakeFiles/shared-matrixlib.dir/c_api.cpp.obj: CMakeFiles/shared-matrixlib.dir/includes_CXX.rsp
-CMakeFiles/shared-matrixlib.dir/c_api.cpp.obj: C:/Users/1/Desktop/SkillBox_exesises/c_api.cpp
-CMakeFiles/shared-matrixlib.dir/c_api.cpp.obj: CMakeFiles/shared-matrixlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\1\Desktop\SkillBox_exesises\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/shared-matrixlib.dir/c_api.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/shared-matrixlib.dir/c_api.cpp.obj -MF CMakeFiles\shared-matrixlib.dir\c_api.cpp.obj.d -o CMakeFiles\shared-matrixlib.dir\c_api.cpp.obj -c C:\Users\1\Desktop\SkillBox_exesises\c_api.cpp
+CMakeFiles/shared-matrixlib.dir/lib/c_api.cpp.obj: CMakeFiles/shared-matrixlib.dir/flags.make
+CMakeFiles/shared-matrixlib.dir/lib/c_api.cpp.obj: CMakeFiles/shared-matrixlib.dir/includes_CXX.rsp
+CMakeFiles/shared-matrixlib.dir/lib/c_api.cpp.obj: C:/Users/1/Desktop/SkillBox_exesises/lib/c_api.cpp
+CMakeFiles/shared-matrixlib.dir/lib/c_api.cpp.obj: CMakeFiles/shared-matrixlib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\1\Desktop\SkillBox_exesises\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/shared-matrixlib.dir/lib/c_api.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/shared-matrixlib.dir/lib/c_api.cpp.obj -MF CMakeFiles\shared-matrixlib.dir\lib\c_api.cpp.obj.d -o CMakeFiles\shared-matrixlib.dir\lib\c_api.cpp.obj -c C:\Users\1\Desktop\SkillBox_exesises\lib\c_api.cpp
 
-CMakeFiles/shared-matrixlib.dir/c_api.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/shared-matrixlib.dir/c_api.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\1\Desktop\SkillBox_exesises\c_api.cpp > CMakeFiles\shared-matrixlib.dir\c_api.cpp.i
+CMakeFiles/shared-matrixlib.dir/lib/c_api.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/shared-matrixlib.dir/lib/c_api.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\1\Desktop\SkillBox_exesises\lib\c_api.cpp > CMakeFiles\shared-matrixlib.dir\lib\c_api.cpp.i
 
-CMakeFiles/shared-matrixlib.dir/c_api.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/shared-matrixlib.dir/c_api.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\1\Desktop\SkillBox_exesises\c_api.cpp -o CMakeFiles\shared-matrixlib.dir\c_api.cpp.s
+CMakeFiles/shared-matrixlib.dir/lib/c_api.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/shared-matrixlib.dir/lib/c_api.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\1\Desktop\SkillBox_exesises\lib\c_api.cpp -o CMakeFiles\shared-matrixlib.dir\lib\c_api.cpp.s
 
 # Object files for target shared-matrixlib
 shared__matrixlib_OBJECTS = \
-"CMakeFiles/shared-matrixlib.dir/matrix.cpp.obj" \
-"CMakeFiles/shared-matrixlib.dir/c_api.cpp.obj"
+"CMakeFiles/shared-matrixlib.dir/lib/matrix.cpp.obj" \
+"CMakeFiles/shared-matrixlib.dir/lib/c_api.cpp.obj"
 
 # External object files for target shared-matrixlib
 shared__matrixlib_EXTERNAL_OBJECTS =
 
-shared-matrixlib.dll: CMakeFiles/shared-matrixlib.dir/matrix.cpp.obj
-shared-matrixlib.dll: CMakeFiles/shared-matrixlib.dir/c_api.cpp.obj
-shared-matrixlib.dll: CMakeFiles/shared-matrixlib.dir/build.make
-shared-matrixlib.dll: CMakeFiles/shared-matrixlib.dir/linkLibs.rsp
-shared-matrixlib.dll: CMakeFiles/shared-matrixlib.dir/objects1.rsp
-shared-matrixlib.dll: CMakeFiles/shared-matrixlib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\1\Desktop\SkillBox_exesises\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library shared-matrixlib.dll"
+libmatrix.dll: CMakeFiles/shared-matrixlib.dir/lib/matrix.cpp.obj
+libmatrix.dll: CMakeFiles/shared-matrixlib.dir/lib/c_api.cpp.obj
+libmatrix.dll: CMakeFiles/shared-matrixlib.dir/build.make
+libmatrix.dll: CMakeFiles/shared-matrixlib.dir/linkLibs.rsp
+libmatrix.dll: CMakeFiles/shared-matrixlib.dir/objects1.rsp
+libmatrix.dll: CMakeFiles/shared-matrixlib.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\1\Desktop\SkillBox_exesises\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libmatrix.dll"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\shared-matrixlib.dir\link.txt --verbose=$(VERBOSE)
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/1/Desktop/SkillBox_exesises/build/libmatrix.dll C:/Users/1/Desktop/SkillBox_exesises/lib
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/1/Desktop/SkillBox_exesises/lib/libmatrix.dll.a C:/Users/1/Desktop/SkillBox_exesises/lib
 
 # Rule to build all files generated by this target.
-CMakeFiles/shared-matrixlib.dir/build: shared-matrixlib.dll
+CMakeFiles/shared-matrixlib.dir/build: libmatrix.dll
 .PHONY : CMakeFiles/shared-matrixlib.dir/build
 
 CMakeFiles/shared-matrixlib.dir/clean:

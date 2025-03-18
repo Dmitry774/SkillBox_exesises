@@ -95,7 +95,6 @@ test__static__matrix_EXTERNAL_OBJECTS =
 
 test-static-matrix.exe: CMakeFiles/test-static-matrix.dir/test-static-matrix.cpp.obj
 test-static-matrix.exe: CMakeFiles/test-static-matrix.dir/build.make
-test-static-matrix.exe: static-matrixlib.a
 test-static-matrix.exe: CMakeFiles/test-static-matrix.dir/linkLibs.rsp
 test-static-matrix.exe: CMakeFiles/test-static-matrix.dir/objects1.rsp
 test-static-matrix.exe: CMakeFiles/test-static-matrix.dir/link.txt

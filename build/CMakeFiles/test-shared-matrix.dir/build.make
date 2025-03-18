@@ -71,31 +71,31 @@ include CMakeFiles/test-shared-matrix.dir/flags.make
 CMakeFiles/test-shared-matrix.dir/codegen:
 .PHONY : CMakeFiles/test-shared-matrix.dir/codegen
 
-CMakeFiles/test-shared-matrix.dir/test-shared-matrix.cpp.obj: CMakeFiles/test-shared-matrix.dir/flags.make
-CMakeFiles/test-shared-matrix.dir/test-shared-matrix.cpp.obj: CMakeFiles/test-shared-matrix.dir/includes_CXX.rsp
-CMakeFiles/test-shared-matrix.dir/test-shared-matrix.cpp.obj: C:/Users/1/Desktop/SkillBox_exesises/test-shared-matrix.cpp
-CMakeFiles/test-shared-matrix.dir/test-shared-matrix.cpp.obj: CMakeFiles/test-shared-matrix.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\1\Desktop\SkillBox_exesises\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test-shared-matrix.dir/test-shared-matrix.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test-shared-matrix.dir/test-shared-matrix.cpp.obj -MF CMakeFiles\test-shared-matrix.dir\test-shared-matrix.cpp.obj.d -o CMakeFiles\test-shared-matrix.dir\test-shared-matrix.cpp.obj -c C:\Users\1\Desktop\SkillBox_exesises\test-shared-matrix.cpp
+CMakeFiles/test-shared-matrix.dir/lib/test-shared-matrix.cpp.obj: CMakeFiles/test-shared-matrix.dir/flags.make
+CMakeFiles/test-shared-matrix.dir/lib/test-shared-matrix.cpp.obj: CMakeFiles/test-shared-matrix.dir/includes_CXX.rsp
+CMakeFiles/test-shared-matrix.dir/lib/test-shared-matrix.cpp.obj: C:/Users/1/Desktop/SkillBox_exesises/lib/test-shared-matrix.cpp
+CMakeFiles/test-shared-matrix.dir/lib/test-shared-matrix.cpp.obj: CMakeFiles/test-shared-matrix.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\1\Desktop\SkillBox_exesises\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test-shared-matrix.dir/lib/test-shared-matrix.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test-shared-matrix.dir/lib/test-shared-matrix.cpp.obj -MF CMakeFiles\test-shared-matrix.dir\lib\test-shared-matrix.cpp.obj.d -o CMakeFiles\test-shared-matrix.dir\lib\test-shared-matrix.cpp.obj -c C:\Users\1\Desktop\SkillBox_exesises\lib\test-shared-matrix.cpp
 
-CMakeFiles/test-shared-matrix.dir/test-shared-matrix.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test-shared-matrix.dir/test-shared-matrix.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\1\Desktop\SkillBox_exesises\test-shared-matrix.cpp > CMakeFiles\test-shared-matrix.dir\test-shared-matrix.cpp.i
+CMakeFiles/test-shared-matrix.dir/lib/test-shared-matrix.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test-shared-matrix.dir/lib/test-shared-matrix.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\1\Desktop\SkillBox_exesises\lib\test-shared-matrix.cpp > CMakeFiles\test-shared-matrix.dir\lib\test-shared-matrix.cpp.i
 
-CMakeFiles/test-shared-matrix.dir/test-shared-matrix.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test-shared-matrix.dir/test-shared-matrix.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\1\Desktop\SkillBox_exesises\test-shared-matrix.cpp -o CMakeFiles\test-shared-matrix.dir\test-shared-matrix.cpp.s
+CMakeFiles/test-shared-matrix.dir/lib/test-shared-matrix.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test-shared-matrix.dir/lib/test-shared-matrix.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\1\Desktop\SkillBox_exesises\lib\test-shared-matrix.cpp -o CMakeFiles\test-shared-matrix.dir\lib\test-shared-matrix.cpp.s
 
 # Object files for target test-shared-matrix
 test__shared__matrix_OBJECTS = \
-"CMakeFiles/test-shared-matrix.dir/test-shared-matrix.cpp.obj"
+"CMakeFiles/test-shared-matrix.dir/lib/test-shared-matrix.cpp.obj"
 
 # External object files for target test-shared-matrix
 test__shared__matrix_EXTERNAL_OBJECTS =
 
-test-shared-matrix.exe: CMakeFiles/test-shared-matrix.dir/test-shared-matrix.cpp.obj
+test-shared-matrix.exe: CMakeFiles/test-shared-matrix.dir/lib/test-shared-matrix.cpp.obj
 test-shared-matrix.exe: CMakeFiles/test-shared-matrix.dir/build.make
-test-shared-matrix.exe: libshared-matrixlib.dll.a
+test-shared-matrix.exe: C:/Users/1/Desktop/SkillBox_exesises/lib/libmatrix.dll.a
 test-shared-matrix.exe: CMakeFiles/test-shared-matrix.dir/linkLibs.rsp
 test-shared-matrix.exe: CMakeFiles/test-shared-matrix.dir/objects1.rsp
 test-shared-matrix.exe: CMakeFiles/test-shared-matrix.dir/link.txt

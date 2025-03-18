@@ -1,6 +1,6 @@
 CMakeFiles/test-shared-matrix.dir/test-shared-matrix.cpp.obj: \
  C:\Users\1\Desktop\SkillBox_exesises\test-shared-matrix.cpp \
- C:/Users/1/Desktop/SkillBox_exesises/export.h \
+ C:/Users/1/Desktop/SkillBox_exesises/src/export.h \
  C:/Users/1/Desktop/SkillBox_exesises/build\export_shared.h \
  C:/mingw64/include/c++/13.2.0/iostream \
  C:/mingw64/include/c++/13.2.0/bits/requires_hosted.h \

@@ -116,19 +116,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named static-matrixlib
-
-# Build rule for target.
-static-matrixlib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 static-matrixlib
-.PHONY : static-matrixlib
-
-# fast build rule for target.
-static-matrixlib/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\static-matrixlib.dir\build.make CMakeFiles/static-matrixlib.dir/build
-.PHONY : static-matrixlib/fast
-
-#=============================================================================
 # Target rules for targets named shared-matrixlib
 
 # Build rule for target.
@@ -140,19 +127,6 @@ shared-matrixlib: cmake_check_build_system
 shared-matrixlib/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\shared-matrixlib.dir\build.make CMakeFiles/shared-matrixlib.dir/build
 .PHONY : shared-matrixlib/fast
-
-#=============================================================================
-# Target rules for targets named test-static-matrix
-
-# Build rule for target.
-test-static-matrix: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test-static-matrix
-.PHONY : test-static-matrix
-
-# fast build rule for target.
-test-static-matrix/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-static-matrix.dir\build.make CMakeFiles/test-static-matrix.dir/build
-.PHONY : test-static-matrix/fast
 
 #=============================================================================
 # Target rules for targets named test-shared-matrix
@@ -167,107 +141,77 @@ test-shared-matrix/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-shared-matrix.dir\build.make CMakeFiles/test-shared-matrix.dir/build
 .PHONY : test-shared-matrix/fast
 
-c_api.obj: c_api.cpp.obj
-.PHONY : c_api.obj
+lib/c_api.obj: lib/c_api.cpp.obj
+.PHONY : lib/c_api.obj
 
 # target to build an object file
-c_api.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\static-matrixlib.dir\build.make CMakeFiles/static-matrixlib.dir/c_api.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\shared-matrixlib.dir\build.make CMakeFiles/shared-matrixlib.dir/c_api.cpp.obj
-.PHONY : c_api.cpp.obj
+lib/c_api.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\shared-matrixlib.dir\build.make CMakeFiles/shared-matrixlib.dir/lib/c_api.cpp.obj
+.PHONY : lib/c_api.cpp.obj
 
-c_api.i: c_api.cpp.i
-.PHONY : c_api.i
+lib/c_api.i: lib/c_api.cpp.i
+.PHONY : lib/c_api.i
 
 # target to preprocess a source file
-c_api.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\static-matrixlib.dir\build.make CMakeFiles/static-matrixlib.dir/c_api.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\shared-matrixlib.dir\build.make CMakeFiles/shared-matrixlib.dir/c_api.cpp.i
-.PHONY : c_api.cpp.i
+lib/c_api.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\shared-matrixlib.dir\build.make CMakeFiles/shared-matrixlib.dir/lib/c_api.cpp.i
+.PHONY : lib/c_api.cpp.i
 
-c_api.s: c_api.cpp.s
-.PHONY : c_api.s
+lib/c_api.s: lib/c_api.cpp.s
+.PHONY : lib/c_api.s
 
 # target to generate assembly for a file
-c_api.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\static-matrixlib.dir\build.make CMakeFiles/static-matrixlib.dir/c_api.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\shared-matrixlib.dir\build.make CMakeFiles/shared-matrixlib.dir/c_api.cpp.s
-.PHONY : c_api.cpp.s
+lib/c_api.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\shared-matrixlib.dir\build.make CMakeFiles/shared-matrixlib.dir/lib/c_api.cpp.s
+.PHONY : lib/c_api.cpp.s
 
-matrix.obj: matrix.cpp.obj
-.PHONY : matrix.obj
+lib/matrix.obj: lib/matrix.cpp.obj
+.PHONY : lib/matrix.obj
 
 # target to build an object file
-matrix.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\static-matrixlib.dir\build.make CMakeFiles/static-matrixlib.dir/matrix.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\shared-matrixlib.dir\build.make CMakeFiles/shared-matrixlib.dir/matrix.cpp.obj
-.PHONY : matrix.cpp.obj
+lib/matrix.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\shared-matrixlib.dir\build.make CMakeFiles/shared-matrixlib.dir/lib/matrix.cpp.obj
+.PHONY : lib/matrix.cpp.obj
 
-matrix.i: matrix.cpp.i
-.PHONY : matrix.i
+lib/matrix.i: lib/matrix.cpp.i
+.PHONY : lib/matrix.i
 
 # target to preprocess a source file
-matrix.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\static-matrixlib.dir\build.make CMakeFiles/static-matrixlib.dir/matrix.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\shared-matrixlib.dir\build.make CMakeFiles/shared-matrixlib.dir/matrix.cpp.i
-.PHONY : matrix.cpp.i
+lib/matrix.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\shared-matrixlib.dir\build.make CMakeFiles/shared-matrixlib.dir/lib/matrix.cpp.i
+.PHONY : lib/matrix.cpp.i
 
-matrix.s: matrix.cpp.s
-.PHONY : matrix.s
+lib/matrix.s: lib/matrix.cpp.s
+.PHONY : lib/matrix.s
 
 # target to generate assembly for a file
-matrix.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\static-matrixlib.dir\build.make CMakeFiles/static-matrixlib.dir/matrix.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\shared-matrixlib.dir\build.make CMakeFiles/shared-matrixlib.dir/matrix.cpp.s
-.PHONY : matrix.cpp.s
+lib/matrix.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\shared-matrixlib.dir\build.make CMakeFiles/shared-matrixlib.dir/lib/matrix.cpp.s
+.PHONY : lib/matrix.cpp.s
 
-test-shared-matrix.obj: test-shared-matrix.cpp.obj
-.PHONY : test-shared-matrix.obj
+lib/test-shared-matrix.obj: lib/test-shared-matrix.cpp.obj
+.PHONY : lib/test-shared-matrix.obj
 
 # target to build an object file
-test-shared-matrix.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-shared-matrix.dir\build.make CMakeFiles/test-shared-matrix.dir/test-shared-matrix.cpp.obj
-.PHONY : test-shared-matrix.cpp.obj
+lib/test-shared-matrix.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-shared-matrix.dir\build.make CMakeFiles/test-shared-matrix.dir/lib/test-shared-matrix.cpp.obj
+.PHONY : lib/test-shared-matrix.cpp.obj
 
-test-shared-matrix.i: test-shared-matrix.cpp.i
-.PHONY : test-shared-matrix.i
-
-# target to preprocess a source file
-test-shared-matrix.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-shared-matrix.dir\build.make CMakeFiles/test-shared-matrix.dir/test-shared-matrix.cpp.i
-.PHONY : test-shared-matrix.cpp.i
-
-test-shared-matrix.s: test-shared-matrix.cpp.s
-.PHONY : test-shared-matrix.s
-
-# target to generate assembly for a file
-test-shared-matrix.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-shared-matrix.dir\build.make CMakeFiles/test-shared-matrix.dir/test-shared-matrix.cpp.s
-.PHONY : test-shared-matrix.cpp.s
-
-test-static-matrix.obj: test-static-matrix.cpp.obj
-.PHONY : test-static-matrix.obj
-
-# target to build an object file
-test-static-matrix.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-static-matrix.dir\build.make CMakeFiles/test-static-matrix.dir/test-static-matrix.cpp.obj
-.PHONY : test-static-matrix.cpp.obj
-
-test-static-matrix.i: test-static-matrix.cpp.i
-.PHONY : test-static-matrix.i
+lib/test-shared-matrix.i: lib/test-shared-matrix.cpp.i
+.PHONY : lib/test-shared-matrix.i
 
 # target to preprocess a source file
-test-static-matrix.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-static-matrix.dir\build.make CMakeFiles/test-static-matrix.dir/test-static-matrix.cpp.i
-.PHONY : test-static-matrix.cpp.i
+lib/test-shared-matrix.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-shared-matrix.dir\build.make CMakeFiles/test-shared-matrix.dir/lib/test-shared-matrix.cpp.i
+.PHONY : lib/test-shared-matrix.cpp.i
 
-test-static-matrix.s: test-static-matrix.cpp.s
-.PHONY : test-static-matrix.s
+lib/test-shared-matrix.s: lib/test-shared-matrix.cpp.s
+.PHONY : lib/test-shared-matrix.s
 
 # target to generate assembly for a file
-test-static-matrix.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-static-matrix.dir\build.make CMakeFiles/test-static-matrix.dir/test-static-matrix.cpp.s
-.PHONY : test-static-matrix.cpp.s
+lib/test-shared-matrix.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-shared-matrix.dir\build.make CMakeFiles/test-shared-matrix.dir/lib/test-shared-matrix.cpp.s
+.PHONY : lib/test-shared-matrix.cpp.s
 
 # Help Target
 help:
@@ -278,21 +222,16 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... shared-matrixlib
-	@echo ... static-matrixlib
 	@echo ... test-shared-matrix
-	@echo ... test-static-matrix
-	@echo ... c_api.obj
-	@echo ... c_api.i
-	@echo ... c_api.s
-	@echo ... matrix.obj
-	@echo ... matrix.i
-	@echo ... matrix.s
-	@echo ... test-shared-matrix.obj
-	@echo ... test-shared-matrix.i
-	@echo ... test-shared-matrix.s
-	@echo ... test-static-matrix.obj
-	@echo ... test-static-matrix.i
-	@echo ... test-static-matrix.s
+	@echo ... lib/c_api.obj
+	@echo ... lib/c_api.i
+	@echo ... lib/c_api.s
+	@echo ... lib/matrix.obj
+	@echo ... lib/matrix.i
+	@echo ... lib/matrix.s
+	@echo ... lib/test-shared-matrix.obj
+	@echo ... lib/test-shared-matrix.i
+	@echo ... lib/test-shared-matrix.s
 .PHONY : help
 
 

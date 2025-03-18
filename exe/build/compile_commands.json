@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/1/Desktop/SkillBox_exesises/exe/build",
+  "command": "C:\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\matrix_example.dir\\main.cpp.obj -c C:\\Users\\1\\Desktop\\SkillBox_exesises\\exe\\main.cpp",
+  "file": "C:/Users/1/Desktop/SkillBox_exesises/exe/main.cpp",
+  "output": "CMakeFiles/matrix_example.dir/main.cpp.obj"
+}
+]

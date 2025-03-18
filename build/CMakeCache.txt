@@ -130,7 +130,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=matrixlib
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=matrix_class
+CMAKE_PROJECT_NAME:STATIC=matrixlib
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=0.0.0
@@ -238,6 +238,15 @@ matrix_class_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 matrix_class_SOURCE_DIR:STATIC=C:/Users/1/Desktop/SkillBox_exesises
+
+//Value Computed by CMake
+matrixlib_BINARY_DIR:STATIC=C:/Users/1/Desktop/SkillBox_exesises/build
+
+//Value Computed by CMake
+matrixlib_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+matrixlib_SOURCE_DIR:STATIC=C:/Users/1/Desktop/SkillBox_exesises
 
 
 ########################

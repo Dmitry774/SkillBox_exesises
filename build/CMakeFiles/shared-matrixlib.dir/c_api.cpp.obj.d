@@ -1,7 +1,7 @@
 CMakeFiles/shared-matrixlib.dir/c_api.cpp.obj: \
  C:\Users\1\Desktop\SkillBox_exesises\c_api.cpp \
  C:\Users\1\Desktop\SkillBox_exesises\c_api.h \
- C:/Users/1/Desktop/SkillBox_exesises/export.h \
+ C:/Users/1/Desktop/SkillBox_exesises/src/export.h \
  C:/Users/1/Desktop/SkillBox_exesises/build\export_shared.h \
  C:/Users/1/Desktop/SkillBox_exesises/matrix.h \
  C:/mingw64/include/c++/13.2.0/vector \

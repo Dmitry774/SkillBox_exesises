@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/1/Desktop/SkillBox_exesises/test-shared-matrix.cpp" "CMakeFiles/test-shared-matrix.dir/test-shared-matrix.cpp.obj" "gcc" "CMakeFiles/test-shared-matrix.dir/test-shared-matrix.cpp.obj.d"
+  "C:/Users/1/Desktop/SkillBox_exesises/lib/test-shared-matrix.cpp" "CMakeFiles/test-shared-matrix.dir/lib/test-shared-matrix.cpp.obj" "gcc" "CMakeFiles/test-shared-matrix.dir/lib/test-shared-matrix.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

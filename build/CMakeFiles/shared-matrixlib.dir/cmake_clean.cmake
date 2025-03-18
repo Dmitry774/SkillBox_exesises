@@ -1,12 +1,12 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/shared-matrixlib.dir/c_api.cpp.obj"
-  "CMakeFiles/shared-matrixlib.dir/c_api.cpp.obj.d"
-  "CMakeFiles/shared-matrixlib.dir/matrix.cpp.obj"
-  "CMakeFiles/shared-matrixlib.dir/matrix.cpp.obj.d"
-  "libshared-matrixlib.dll.a"
-  "shared-matrixlib.dll"
-  "shared-matrixlib.dll.manifest"
-  "shared-matrixlib.pdb"
+  "C:/Users/1/Desktop/SkillBox_exesises/lib/libmatrix.dll.a"
+  "CMakeFiles/shared-matrixlib.dir/lib/c_api.cpp.obj"
+  "CMakeFiles/shared-matrixlib.dir/lib/c_api.cpp.obj.d"
+  "CMakeFiles/shared-matrixlib.dir/lib/matrix.cpp.obj"
+  "CMakeFiles/shared-matrixlib.dir/lib/matrix.cpp.obj.d"
+  "libmatrix.dll"
+  "libmatrix.dll.manifest"
+  "libmatrix.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

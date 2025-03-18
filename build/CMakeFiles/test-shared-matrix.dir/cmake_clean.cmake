@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/test-shared-matrix.dir/test-shared-matrix.cpp.obj"
-  "CMakeFiles/test-shared-matrix.dir/test-shared-matrix.cpp.obj.d"
+  "CMakeFiles/test-shared-matrix.dir/lib/test-shared-matrix.cpp.obj"
+  "CMakeFiles/test-shared-matrix.dir/lib/test-shared-matrix.cpp.obj.d"
   "libtest-shared-matrix.dll.a"
   "test-shared-matrix.exe"
   "test-shared-matrix.exe.manifest"
